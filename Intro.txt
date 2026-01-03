@@ -10,7 +10,7 @@ WHAT IS PYTHON?
 Python is a simple and easy to understand language which feels like reading simple 
 English. This Pseudo code nature is easy to learn and understandable by beginners. 
 
-FEATURES OF PYTHON
+FEATURES OF PYTHON:-
 
 • Easy to understand = Less development time  
 • Free and open source 
@@ -18,7 +18,7 @@ FEATURES OF PYTHON
 • Portable: Works on Linux / Windows / Mac. 
 • Fun to work with!
 
-INSTALLATION 
+INSTALLATION:- 
 
 Python can be easily installed from python.org. When you click on the download 
 button, python can be installed right after you complete the setup by executing the file 
