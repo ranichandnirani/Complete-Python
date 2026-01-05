@@ -1,0 +1,24 @@
+                                    CHAPTER 2 – VARIABLES AND DATATYPE 
+
+A variable is the name given to a memory location in a program. For example. 
+
+a= 30      (variables = container to store a value.) 
+b= "Chandni"  (keywords = reserved words in python.)  
+c= 71.22  (identifiers = class/function/variable name) 
+
+
+DATA TYPES:-
+
+Primarily these are the following data types in Python:-
+
+1. Integers 
+2. Floating point numbers 
+3. Strings 
+4. Booleans  
+5. None 
+
+Python is a fantastic language that automatically identifies the type of data for us.
+
+a= 71      (identifies a as class <int>)
+b=88.44       (identifies b as class <float>) 
+name= "Chandni"   (identifies name as class <str>)
