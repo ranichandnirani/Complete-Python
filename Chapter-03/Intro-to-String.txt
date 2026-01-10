@@ -1,0 +1,67 @@
+
+                                                CHAPTER 3 – STRINGS 
+String is a data type in python. 
+
+String is a sequence of characters enclosed in quotes. 
+We can primarily write a string in these three ways. 
+
+a ='chandni'       # Single quoted string 
+b = "chandni"      # Double quoted string 
+c = '''chandni'''  # Triple quoted string 
+
+String slicing
+
+String slicing means extracting a part of a string.
+
+string[start : end]
+Example:
+str = "chandni"
+print(str[0:5])   # chand
+print(str[2:])    # andni
+print(str[:4])    # chan
+print(str[-3:])   # dni     
+                                         
+STRING FUNCTIONS 
+
+Some of the commonly used functions to perform operations on or manipulate strings 
+are as follows. Let us assume there is a string ‘str’ as follows: 
+str = 'chandni' 
+
+Now when operated on this string ‘str’, these functions do the following: 
+
+1. len () function: – This function returns the length of the strings. 
+str = "chandni" 
+print(len(str))  # Output: 7 
+
+2. String.endswith("dni"): – This function_ tells whether the variable string ends with 
+the string "dni" or not. If string is "chandni", it returns true for "dni" since Chandni ends 
+with dni. 
+
+str = "chandni" 
+print(str.endswith("dni"))  # Output: True 
+
+3. string.count("c"): – counts the total number of occurrences of any character. 
+
+str = "chandni" 
+count = str.count("n") 
+print(count)  # Output: 2 
+
+4. the first character of a given string. 
+
+str = "chandni" 
+capitalized_string = str.capitalize() 
+print(capitalized_string)  # Output: "Chandni" 
+
+5. string.find(word): – This function friends a word and returns the index of first 
+occurrence of that word in the string. 
+str = "chandni" 
+
+index = str.find("n") 
+print(index)  # Output: 3 
+
+6. string.replace (old word, new word ): – This function replace the old word with 
+new word in the entire string. 
+
+str = "maya" 
+replaced_string = str.replace("m", "r") 
+print(replaced_string)  # Output: "raya"
