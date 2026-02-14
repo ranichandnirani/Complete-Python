@@ -18,7 +18,7 @@
 
 ## 📌 About This Repository
 
-This repository contains a **comprehensive Python programming course** with hands-on examples and practice exercises. Each module covers essential Python concepts from fundamentals to advanced topics, designed for both beginners and intermediate learners.
+This repository documents my Python learning journey through the CodeWithHarry Python course. It includes structured notes, hands-on examples, and practice exercises covering core concepts from fundamentals to advanced topics. The content is organized for clarity and practical understanding.
 
 **Perfect for:**
 
@@ -429,7 +429,7 @@ Need help or have questions?
 
 ### 🎉 Foundation Complete - 6 Modules Done! 🎉
 
-**Made with ❤️ and ☕ for Python Learners**
+**Made with ❤️ and ☕ by Chandni Rani**
 
 _Python Fundamentals Mastered!_ 🐍✨
 
