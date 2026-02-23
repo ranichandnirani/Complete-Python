@@ -1,9 +1,9 @@
-# ✅ Complete Python - IN PROGRESS! 🐍
+# ✅ Complete Python - FOUNDATION COMPLETE! 🐍
 
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-IN_PROGRESS-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-FOUNDATION_COMPLETE-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
 
 ### 🐍 Complete Python Programming Course
@@ -269,7 +269,7 @@ graph LR
 </details>
 
 <details>
-<summary>🔀 <b>Module 06: Conditional Expressions</b></summary>
+<summary>✅ <b>Module 06: Conditional Expressions</b></summary>
 
 **Topics Covered:**
 - if statement
