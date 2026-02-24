@@ -36,22 +36,24 @@ This repository documents my Python learning journey through the CodeWithHarry P
 
 | Module  | Topic                        | Content                      | Status |
 | ------- | ---------------------------- | ---------------------------- | ------ |
-| **01** | Introduction to Python        | Setup, First Program, Basics | ✅     |
-| **02** | Variables & Data Types        | Variables, Types, Casting    | ✅     |
-| **03** | Strings                       | String Methods, Formatting   | ✅     |
+| **01** | Introduction to Python        | Setup, First Program, Basics | ✅ Completed    |
+| **02** | Variables & Data Types        | Variables, Types, Casting    | ✅ Completed    |
+| **03** | Strings                       | String Methods, Formatting   | ✅ Completed    |
 
 ### 📊 Data Structures
 
 | Module  | Topic                        | Content                      | Status |
 | ------- | ---------------------------- | ---------------------------- | ------ |
-| **04** | Lists & Tuples                | Lists, Tuples, Methods       | ✅     |
-| **05** | Dictionary & Sets             | Dict, Sets, Operations       | ✅     |
+| **04** | Lists & Tuples                | Lists, Tuples, Methods       | ✅ Completed    |
+| **05** | Dictionary & Sets             | Dict, Sets, Operations       | ✅ Completed    |
 
 ### 🔀 Control Flow
 
 | Module  | Topic                        | Content                      | Status |
 | ------- | ---------------------------- | ---------------------------- | ------ |
-| **06** | Conditional Expressions       | if-else, elif, Ternary       | ✅     |
+| **06** | Conditional Expressions       | if-else, elif, Ternary       | ✅ Completed     |
+|  **07** | Loops                         | for, while, break, continue  | 🔄 **In Progress** |
+
 
 ---
 
@@ -125,6 +127,8 @@ python3 --version
 │   └── Dictionaries, Sets, Operations
 ├── 📁 06 Conditional Expression
 │   └── if-else, elif, Nested conditions
+├── 📁 07 Loops 🔄
+│   └── for, while, break, continue (In Progress)
 └── 📄 README.md (This file)
 ```
 
@@ -153,10 +157,14 @@ python3 --version
 🏆 **Control Flow**
 
 - Conditional Statements (if, elif, else)
-- Comparison Operators
-- Logical Operators
-- Nested Conditions
-- Ternary Operators
+- 🔄 **Loops** (In Progress)
+- 🔄 for loops
+- 🔄 while loops
+- 🔄 break statement
+- 🔄 continue statement
+- 🔄 Nested loops
+- 🔄 Loop with else
+- 🔄 Range function
 
 🚀 **What's Next**
 
@@ -174,8 +182,9 @@ graph LR
     A[🌱 Start] --> B[📝 01-02<br/>Basics]
     B --> C[📚 03<br/>Strings]
     C --> D[📊 04-05<br/>Data Structures]
-    D --> E[🔀 06<br/>Conditionals]
-    E --> F[🎉 Foundation Complete!]
+    D --> E[🎓 06<br/>Conditionals]
+    E --> F[📖 Loops]
+    F --> G[🎉 Foundation Complete!]
 ```
 
 ---
@@ -285,6 +294,28 @@ graph LR
 - Complex conditional logic
 - Short-circuit evaluation
 </details>
+
+<details>
+<summary>🔄 <b>Module 07: Loops</b></summary>
+
+**Topics to Cover:**
+- for loops
+- while loops
+- break statement
+- continue statement
+- pass statement
+- Nested loops
+- Loop with else clause
+- Range function
+- Iterating over sequences
+
+**Learning Goals:**
+- Understanding iteration
+- Loop control flow
+- Efficient looping techniques
+</details>
+
+
 
 ---
 
