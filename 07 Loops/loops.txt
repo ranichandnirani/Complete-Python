@@ -5,6 +5,7 @@ Python has two main types of loops:
 
 1. for Loop:
     Used to iterate over a sequence (list, tuple, string, range, etc.).
+    The range() function in python is used to generate a sequence of number.
 
 2. while Loop:
     Repeats as long as a condition is True.
