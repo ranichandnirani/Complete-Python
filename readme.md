@@ -34,25 +34,25 @@ This repository documents my Python learning journey through the CodeWithHarry P
 
 ### 🔰 Fundamentals
 
-| Module  | Topic                        | Content                      | Status |
-| ------- | ---------------------------- | ---------------------------- | ------ |
-| **01** | Introduction to Python        | Setup, First Program, Basics | ✅ Completed    |
-| **02** | Variables & Data Types        | Variables, Types, Casting    | ✅ Completed    |
-| **03** | Strings                       | String Methods, Formatting   | ✅ Completed    |
+| Module   | Topic                          | Content                      | Status           |
+| -------  | ------------------------------ | ---------------------------- | ------           |
+| **0001** | Introduction to Python         | Setup, First Program, Basics | ✅ Completed    |
+| **0002** | Variables & Data Types         | Variables, Types, Casting    | ✅ Completed    |
+| **0003** | Strings                        | String Methods, Formatting   | ✅ Completed    |
 
 ### 📊 Data Structures
 
-| Module  | Topic                        | Content                      | Status |
-| ------- | ---------------------------- | ---------------------------- | ------ |
-| **04** | Lists & Tuples                | Lists, Tuples, Methods       | ✅ Completed    |
-| **05** | Dictionary & Sets             | Dict, Sets, Operations       | ✅ Completed    |
+| Module   | Topic                         | Content                      | Status           |
+| -------  | ----------------------------  | ---------------------------  | ---------------  |
+| **0004** | Lists & Tuples                | Lists, Tuples, Methods       | ✅ Completed     |
+| **0005** | Dictionary & Sets             | Dict, Sets, Operations       | ✅ Completed     |
 
 ### 🔀 Control Flow
 
-| Module  | Topic                        | Content                      | Status |
-| ------- | ---------------------------- | ---------------------------- | ------ |
-| **06** | Conditional Expressions       | if-else, elif, Ternary       | ✅ Completed     |
-|  **07** | Loops                         | for, while, break, continue  | 🔄 **In Progress** |
+| Module   | Topic                         | Content                      | Status             |
+| -------  | ----------------------------  | ---------------------------- | ------             |
+| **0006** | Conditional Expressions       | if-else, elif, Ternary       | ✅ Completed       |
+| **0007** | Loops                         | for, while, break, continue  | 🔄 **In Progress** |
 
 
 ---
@@ -77,8 +77,8 @@ git clone https://github.com/ranichandnirani/Complete-Python.git
 # Navigate to the folder
 cd Complete-Python
 
-# Choose any module (example: 02 Variables & Datatypes)
-cd "02 Variables & Datatypes"
+# Choose any module (example: 0002 Variables & Datatypes)
+cd "0002 Variables & Datatypes"
 
 # Run Python file
 python filename.py
@@ -115,19 +115,19 @@ python3 --version
 
 ```
 📦 Complete Python
-├── 📁 01 Intro-python
+├── 📁 0001 Intro-python
 │   └── Introduction & Setup
-├── 📁 02 Variables & Datatypes
+├── 📁 0002 Variables & Datatypes
 │   └── Variables, Data Types, Type Conversion
-├── 📁 03 Strings
+├── 📁 0003 Strings
 │   └── String Operations & Methods
-├── 📁 04 Lists & Tuples
+├── 📁 0004 Lists & Tuples
 │   └── Lists, Tuples, List Comprehension
-├── 📁 05 Dictionary & Sets
+├── 📁 0005 Dictionary & Sets
 │   └── Dictionaries, Sets, Operations
-├── 📁 06 Conditional Expression
+├── 📁 0006 Conditional Expression
 │   └── if-else, elif, Nested conditions
-├── 📁 07 Loops 🔄
+├── 📁 0007 Loops 🔄
 │   └── for, while, break, continue (In Progress)
 └── 📄 README.md (This file)
 ```
@@ -179,11 +179,11 @@ python3 --version
 
 ```mermaid
 graph LR
-    A[🌱 Start] --> B[📝 01-02<br/>Basics]
-    B --> C[📚 03<br/>Strings]
-    C --> D[📊 04-05<br/>Data Structures]
-    D --> E[🎓 06<br/>Conditionals]
-    E --> F[📖 Loops]
+    A[🌱 Start] --> B[📝 0001-0002<br/>Basics]
+    B --> C[📚 0003<br/>Strings]
+    C --> D[📊 0004-0005<br/>Data Structures]
+    D --> E[🎓 0006<br/>Conditionals]
+    E --> F[📖 0007<br/>Loops]
     F --> G[🎉 Foundation Complete!]
 ```
 
@@ -192,7 +192,7 @@ graph LR
 ## 📖 Detailed Modules
 
 <details>
-<summary>🐍 <b>Module 01: Introduction to Python</b></summary>
+<summary>🐍 <b>Module 0001: Introduction to Python</b></summary>
 
 **Topics Covered:**
 - What is Python?
@@ -210,7 +210,7 @@ graph LR
 </details>
 
 <details>
-<summary>📦 <b>Module 02: Variables & Data Types</b></summary>
+<summary>📦 <b>Module 0002: Variables & Data Types</b></summary>
 
 **Topics Covered:**
 - Variables & naming conventions
@@ -227,7 +227,7 @@ graph LR
 </details>
 
 <details>
-<summary>📝 <b>Module 03: Strings</b></summary>
+<summary>📝 <b>Module 0003: Strings</b></summary>
 
 **Topics Covered:**
 - String creation
@@ -244,7 +244,7 @@ graph LR
 </details>
 
 <details>
-<summary>📋 <b>Module 04: Lists & Tuples</b></summary>
+<summary>📋 <b>Module 0004: Lists & Tuples</b></summary>
 
 **Topics Covered:**
 - List creation & operations
@@ -261,7 +261,7 @@ graph LR
 </details>
 
 <details>
-<summary>🗂️ <b>Module 05: Dictionary & Sets</b></summary>
+<summary>🗂️ <b>Module 0005: Dictionary & Sets</b></summary>
 
 **Topics Covered:**
 - Dictionary creation
@@ -278,7 +278,7 @@ graph LR
 </details>
 
 <details>
-<summary>✅ <b>Module 06: Conditional Expressions</b></summary>
+<summary>✅ <b>Module 0006: Conditional Expressions</b></summary>
 
 **Topics Covered:**
 - if statement
@@ -296,7 +296,7 @@ graph LR
 </details>
 
 <details>
-<summary>🔄 <b>Module 07: Loops</b></summary>
+<summary>🔄 <b>Module 0007: Loops</b></summary>
 
 **Topics to Cover:**
 - for loops
@@ -415,14 +415,6 @@ After completing these 6 modules, you will be able to:
 ✅ Write conditional logic (if-else, elif)  
 ✅ Build strong Python fundamentals  
 ✅ Ready to learn loops, functions, and advanced topics  
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** - feel free to use for learning and teaching!
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 ---
 
