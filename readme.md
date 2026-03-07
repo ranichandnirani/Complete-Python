@@ -1,3 +1,5 @@
+![banner](https://capsule-render.vercel.app/api?type=waving&color=1A6FED&height=180&section=header)
+
 # ✅ Complete Python - FOUNDATION COMPLETE! 🐍
 
 <div align="center">
@@ -434,6 +436,8 @@ If this repository helped you learn Python:
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ranichandnirani)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chandni-rani)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the_chan_dni/)
 </div>
 
 ---
@@ -445,7 +449,7 @@ Need help or have questions?
 - 💡 [Open an Issue](https://github.com/ranichandnirani/Complete-Python/issues)
 - 📧 Email: chandnirani229@gmail.com
 - 🌐 GitHub: [@ranichandnirani](https://github.com/ranichandnirani)
-
+- 🔗 Instagram: [@the_chan_dni](https://www.instagram.com/the_chan_dni/)
 ---
 
 <div align="center">
@@ -462,4 +466,5 @@ _Python Fundamentals Mastered!_ 🐍✨
 
 **⭐ If this helped you, please star this repository! ⭐**
 
+![footer](https://capsule-render.vercel.app/api?type=waving&color=1A6FED&height=100&section=footer)
 </div>

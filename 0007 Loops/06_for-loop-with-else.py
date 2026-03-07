@@ -1,0 +1,9 @@
+# For loop with else
+
+l = [1, 7, 8]
+
+for item in l:
+    print(item)
+
+else:
+    print("done") #print when loop is exhaists!
