@@ -1,6 +1,6 @@
 ![banner](https://capsule-render.vercel.app/api?type=waving&color=1A6FED&height=180&section=header)
 
-# ✅ Complete Python - FOUNDATION COMPLETE! 🐍
+# ✅ Complete Python - IN PROGRESS! 🐍
 
 <div align="center">
 
@@ -54,9 +54,13 @@ This repository documents my Python learning journey through the CodeWithHarry P
 | Module   | Topic                         | Content                      | Status             |
 | -------  | ----------------------------  | ---------------------------- | ------             |
 | **0006** | Conditional Expressions       | if-else, elif, Ternary       | ✅ Completed       |
-| **0007** | Loops                         | for, while, break, continue  | 🔄 **In Progress** |
+| **0007** | Loops                         | for, while, break, continue  | ✅ Completed       |
 
+### 🎯 Functions & Recursions
 
+| Module   | Topic                         | Content                      | Status             |
+| -------  | ----------------------------  | ---------------------------- | ------             |
+| **0008** | Functions & Recursions       | Type of argument, local and global variables, Recursion     | ✅ Completed       |
 ---
 
 ## 🚀 Quick Start
@@ -129,8 +133,10 @@ python3 --version
 │   └── Dictionaries, Sets, Operations
 ├── 📁 0006 Conditional Expression
 │   └── if-else, elif, Nested conditions
-├── 📁 0007 Loops 🔄
-│   └── for, while, break, continue (In Progress)
+├── 📁 0007 Loops 
+│   └── for, while, break, continue
+├── 📁 0008 Functions and Recursion 
+│   └── Type of arguments, local and global variable, Recursion
 └── 📄 README.md (This file)
 ```
 
@@ -158,15 +164,22 @@ python3 --version
 
 🏆 **Control Flow**
 
-- Conditional Statements (if, elif, else)
-- 🔄 **Loops** (In Progress)
-- 🔄 for loops
-- 🔄 while loops
-- 🔄 break statement
-- 🔄 continue statement
-- 🔄 Nested loops
-- 🔄 Loop with else
-- 🔄 Range function
+- **Conditional Statements** (if, elif, else)
+-  **Loops** ()
+-  for loops
+-  while loops
+-  break statement
+-  continue statement
+-  Nested loops
+-  Loop with else
+-  Range function
+
+🎯 **Functions & Recursions**
+
+- Types of functions
+- Types of arguments
+- Local and Global variable
+- Recursion
 
 🚀 **What's Next**
 
@@ -186,7 +199,8 @@ graph LR
     C --> D[📊 0004-0005<br/>Data Structures]
     D --> E[🎓 0006<br/>Conditionals]
     E --> F[📖 0007<br/>Loops]
-    F --> G[🎉 Foundation Complete!]
+    F --> G[💡 0008<br/>Functions & Recursion]
+    G --> H[🎉 Foundation Complete!]
 ```
 
 ---
@@ -298,7 +312,7 @@ graph LR
 </details>
 
 <details>
-<summary>🔄 <b>Module 0007: Loops</b></summary>
+<summary>🔃 <b>Module 0007: Loops</b></summary>
 
 **Topics to Cover:**
 - for loops
@@ -317,7 +331,24 @@ graph LR
 - Efficient looping techniques
 </details>
 
+<details>
+<summary>🎯 <b>Module 0008: Functions & Recursion</b></summary>
 
+**Topics to Cover:**
+- Types of functions
+- Types of arguments
+- Local and Global variable
+- Recursion
+
+**Learning Goals:**
+- Understand why functions are used in Python
+- Learn how to define and call functions
+- Work with different types of arguments
+- Understand the difference between local and global variables
+- Learn how recursion works with a base case
+- Solve simple problems using recursive functions
+
+</details>
 
 ---
 
@@ -380,7 +411,7 @@ Contributions are welcome! Here's how you can help:
 
 ## 🌟 Features
 
-- ✅ **6 Modules Completed**: Strong foundation built
+- ✅ **8 Modules Completed**: Strong foundation built
 - ✅ **Hands-on Examples**: Practical code in every module
 - ✅ **Well-Structured**: Organized learning path
 - ✅ **Progressive Learning**: Step-by-step approach
