@@ -1,6 +1,5 @@
                                             CHAPTER 9 – FILE I/O
-The random-access memory is volatile, and all its contents are lost once a program
-terminates. In order to persist(save) the data forever, we use files.
+The random-access memory is volatile, and all its contents are lost once a program terminates. In order to persist(save) the data forever, we use files.
 A file is data stored in a storage device. A python program can talk to the file by reading
 content from it and writing content to it.
 
@@ -25,5 +24,21 @@ Open the file in read mode
 Read its contents
 text = f.read()
 
- Print its contents
+Print its contents
 print(text)
+
+Close the file
+f.close()
+
+OTHER METHODS TO READ THE FILE.
+
+We can also use f.readline() function to read one full line at a time.
+f.readline()Read one line from the file.
+
+MODES OF OPENING A FILE:-
+            r – open for reading
+            w - open for writing
+            a - open for appending
+            + - open for updating.
+            ‘rb’ will open for read in binary mode.
+            ‘rt’ will open for read in text mode.
