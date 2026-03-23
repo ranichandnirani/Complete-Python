@@ -1,0 +1,11 @@
+# 1. Write a program to read the text from a given file ‘poems.txt’ and find out whether it contains the word ‘twinkle’.
+
+f = open("0009 File Input-Output/Practice Set/poem.txt")
+
+content = f.read()
+if("Twinkle" in content):
+    print("Twinkle is present in the content")
+else:
+    print("Twinkle is not present in the content")   
+    
+f.close()
