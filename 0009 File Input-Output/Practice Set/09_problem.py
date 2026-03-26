@@ -7,6 +7,6 @@ with open("0009 File Input-Output/Practice Set/poem.txt") as f:
     content2 = f.read()
 
 if content1 == content2:
-    print("These file is identical")
+    print("This file is identical")
 else:
     print("Not identical")
