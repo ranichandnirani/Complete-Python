@@ -1,0 +1,223 @@
+                                        OBJECT-ORIENTED PROGRAMMING (OOP) IN PYTHON
+
+1. Introduction
+OOP (Object-Oriented Programming) is a programming paradigm based on the concept of objects.
+Objects contain:
+- Data (attributes/variables)
+- Methods (functions)
+
+OOP helps in:
+- Code reusability
+- Modularity
+- Easy maintenance
+- Real-world modeling
+
+--------------------------------------------------
+
+2. Class and Object
+
+Class:
+A blueprint or template for creating objects.
+
+Syntax:
+class ClassName:
+    pass
+
+Object:
+An instance of a class.
+
+Example:
+class Student:
+    pass
+
+s1 = Student()
+
+--------------------------------------------------
+
+3. Constructor (__init__)
+
+A constructor is a special method used to initialize object properties.
+
+Example:
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+s1 = Student("Chandni", 20)
+
+--------------------------------------------------
+
+4. Instance Variables and Methods
+
+Instance variables are unique to each object.
+
+Example:
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+    def display(self):
+        print(self.name)
+
+--------------------------------------------------
+
+5. Types of Variables
+
+1. Instance Variables → unique per object
+2. Class Variables → shared among all objects
+
+Example:
+class Student:
+    school = "ABC School"   # class variable
+
+    def __init__(self, name):
+        self.name = name    # instance variable
+
+--------------------------------------------------
+
+6. Types of Methods
+
+1. Instance Method → uses self
+2. Class Method → uses @classmethod and cls
+3. Static Method → uses @staticmethod
+
+Example:
+class Demo:
+    @classmethod
+    def class_method(cls):
+        pass
+
+    @staticmethod
+    def static_method():
+        pass
+
+--------------------------------------------------
+
+7. Pillars of OOP
+
+A. Encapsulation
+Binding data and methods together.
+
+Example:
+class Student:
+    def __init__(self, name):
+        self.__name = name   # private variable
+
+--------------------------------------------------
+
+B. Abstraction
+Hiding implementation details.
+
+Example:
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+
+--------------------------------------------------
+
+C. Inheritance
+Acquiring properties from another class.
+
+Types:
+- Single
+- Multiple
+- Multilevel
+- Hierarchical
+- Hybrid
+
+Example:
+class Parent:
+    def show(self):
+        print("Parent")
+
+class Child(Parent):
+    pass
+
+--------------------------------------------------
+
+D. Polymorphism
+Same method name, different behavior.
+
+Types:
+1. Method Overloading (not direct in Python)
+2. Method Overriding
+
+Example:
+class Parent:
+    def show(self):
+        print("Parent")
+
+class Child(Parent):
+    def show(self):
+        print("Child")
+
+--------------------------------------------------
+
+8. Access Modifiers
+
+1. Public → variable
+2. Protected → _variable
+3. Private → __variable
+
+--------------------------------------------------
+
+9. Magic Methods (Dunder Methods)
+
+Special methods with double underscores.
+
+Examples:
+__init__ → constructor
+__str__ → string representation
+__len__ → length
+
+--------------------------------------------------
+
+10. Composition
+
+Using one class inside another.
+
+Example:
+class Engine:
+    pass
+
+class Car:
+    def __init__(self):
+        self.engine = Engine()
+
+--------------------------------------------------
+
+11. Difference: OOP vs Procedural
+
+OOP:
+- Based on objects
+- Reusable
+- Secure
+
+Procedural:
+- Based on functions
+- Less secure
+- Less reusable
+
+--------------------------------------------------
+
+12. Advantages of OOP
+
+- Reusability
+- Scalability
+- Security
+- Easy debugging
+
+--------------------------------------------------
+
+13. Disadvantages of OOP
+
+- Complex for beginners
+- More memory usage
+
+--------------------------------------------------
+
+END OF NOTES
