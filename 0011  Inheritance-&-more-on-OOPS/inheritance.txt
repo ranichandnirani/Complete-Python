@@ -1,0 +1,88 @@
+                                                 INHERITANCE IN PYTHON
+
+What is Inheritance?
+                Inheritance is a mechanism where a child class acquires the properties and methods of a parent class. It promotes code reusability and represents a real-world "is-a" relationship. For example, a Dog IS-A Animal, a Car IS-A Vehicle.
+
+Key Terms:
+
+|      Term         |                        Meaning                                    |
+|-------------------|-------------------------------------------------------------------|
+| Parent Class      | The class being inherited from (also called Base or Super class)  |
+| Child Class       | The class that inherits (also called Derived or Sub class)        |
+| Override          | When child redefines a parent method                              |
+| super()           | Used to call parent class methods                                 |
+
+1. SINGLE INHERITANCE:-
+                One child class inherits from one parent class. This is the simplest and most commonly used form of inheritance.
+Example relationship: 
+                Animal → Dog
+The Dog class gets all attributes and methods of Animal and can also add its own.
+
+2. MULTIPLE INHERITANCE:-
+                    A child class inherits from more than one parent class at the same time. The child gets features from all parent classes combined.
+Example relationship: 
+                Father + Mother → Child
+Python resolves conflicts between parent methods using MRO (Method Resolution Order).
+
+3. MULTILEVEL INHERITANCE:-
+                    Inheritance happens in a chain — like a grandparent passing traits to a parent, who passes them to a child.
+Example relationship: 
+                    Vehicle → Car → ElectricCar
+ElectricCar gets features from both Car and Vehicle.
+
+4. HIERARCHICAL INHERITANCE:-
+                        Multiple child classes inherit from the same single parent class. Each child shares the parent's base features but can have its own unique additions.
+Example relationship: 
+                    Animal → Dog, Animal → Cat, Animal → Bird
+All three children share the Animal base but are different from each other.
+
+5. HYBRID INHERITANCE:-
+                    A combination of two or more types of inheritance in the same program. It can get complex and Python handles it carefully using MRO to avoid confusion.
+
+METHOD OVERRIDING:-
+                    When a child class defines a method with the same name as the parent, the child's version replaces the parent's version for that object. This is called overriding.
+The parent method still exists — you can access it using super() if needed.
+
+super() IN INHERITANCE:-
+                    super() is used to call the parent class's method from inside the child class. It is most commonly used in __init__ to make sure the parent is properly initialized before the child adds its own setup.
+Without super(), the parent's __init__ would be skipped entirely, and the child object would be missing the parent's attributes.
+
+WHAT GETS INHERITED?
+
+| Inherited                         | Not Inherited                      |
+|-----------------------------------|------------------------------------|
+| Instance methods                  | Private attributes (__ prefix)     |
+| Class methods                     | Constructors (unless super() used) |
+| Static methods                    |                                    |
+| Class variables                   |                                    |
+| Properties                        |                                    |
+
+CHECKING INHERITANCE RELATIONSHIPS:-
+
+Python provides two built-in functions:
+                                isinstance() — checks if an object is an instance of a class or its parent classes.
+                                issubclass() — checks if a class is a subclass of another class.
+
+WHEN TO USE INHERITANCE
+
+✅ Use inheritance when:
+- A clear "is-a" relationship exists
+- You want to reuse and extend existing code
+- You want to enforce a common interface across related classes
+
+❌ Avoid inheritance when:
+- The relationship is "has-a" (use composition instead)
+- You only need one or two methods (use mixins instead)
+- It creates tight coupling that's hard to change later
+
+INHERITANCE vs COMPOSITION
+
+|                | Inheritance        | Composition        |
+|----------------|--------------------|--------------------|
+| Relationship   | is-a               | has-a              |
+| Example        | Dog is-a Animal    | Car has-a Engine   |
+| Coupling       | Tight              | Loose              |
+| Flexibility    | Less flexible      | More flexible      |
+| Best for       | Extending behavior | Combining behavior |
+
+The general rule in Python is — prefer composition over inheritance unless the is-a relationship is genuinely clear. 🐍
