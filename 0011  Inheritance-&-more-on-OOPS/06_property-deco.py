@@ -18,6 +18,6 @@ e = Employee()
 e.a = 34
 
 e.name = "Chandni Rani"
-print(e.name)
+print(e.fname, e.lname)
 
 e.show()
