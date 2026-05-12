@@ -61,6 +61,11 @@ This repository documents my Python learning journey through the CodeWithHarry P
 | Module   | Topic                         | Content                      | Status             |
 | -------  | ----------------------------  | ---------------------------- | ------             |
 | **0008** | Functions & Recursions       | Type of argument, local and global variables, Recursion     | ✅ Completed       |
+| **0008** | Project-1                    | SNAKE, WATER, GUN GAME     | ✅ Completed       |
+| **0009** | File I/O       | r – open for reading, w - open for writing, a - open for appending, + - open for updating, ‘rb’ will open for read in binary mode, ‘rt’ will open for read in text mode.     | ✅ Completed       |
+| **0010** | Object-Oriented Programming       | Classes & Objects, self, constructor     | ✅ Completed       |
+| **0011** | Inheritance       | Single, Multiple, Multilevel,  Hierarichical, Hybride    | ✅ Completed       |
+| **0011** | Project-2       | Generates a random   | ✅ Completed       |
 ---
 
 ## 🚀 Quick Start
