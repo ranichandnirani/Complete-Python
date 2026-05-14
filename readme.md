@@ -142,7 +142,16 @@ python3 --version
 │   └── for, while, break, continue
 ├── 📁 0008 Functions and Recursion 
 │   └── Type of arguments, local and global variable, Recursion
+├── 📁 0008 Project-1 
+│   └── SNAKE, WATER, GUN GAME
+├── 📁 0009 File Handling
+│   └── File I/O, read and write, open and close, and append
+├── 📁 0010-0011 Object-Oriented-Programming 
+│   └── Classes and Objects, Inheritance, Encapsulation, Polymorphysom, Abstraction
+├── 📁 0011 Project-2 Random number Guessing 
+│   └── Using Random module
 └── 📄 README.md (This file)
+
 ```
 
 ---
@@ -485,6 +494,7 @@ Need help or have questions?
 - 💡 [Open an Issue](https://github.com/ranichandnirani/Complete-Python/issues)
 - 📧 Email: chandnirani229@gmail.com
 - 🌐 GitHub: [@ranichandnirani](https://github.com/ranichandnirani)
+- 🚀 LinkedIn: [@chandni-rani](https://www.linkedin.com/in/chandni-rani)
 - 🔗 Instagram: [@the_chan_dni](https://www.instagram.com/the_chan_dni/)
 ---
 
