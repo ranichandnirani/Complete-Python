@@ -12,7 +12,6 @@ OOP helps in:
 - Easy maintenance
 - Real-world modeling
 
---------------------------------------------------
 
 2. Class and Object
 
@@ -32,7 +31,6 @@ class Student:
 
 s1 = Student()
 
---------------------------------------------------
 
 3. Constructor (__init__)
 
@@ -46,7 +44,6 @@ class Student:
 
 s1 = Student("Chandni", 20)
 
---------------------------------------------------
 
 4. Instance Variables and Methods
 
@@ -60,7 +57,6 @@ class Student:
     def display(self):
         print(self.name)
 
---------------------------------------------------
 
 5. Types of Variables
 
@@ -74,7 +70,6 @@ class Student:
     def __init__(self, name):
         self.name = name    # instance variable
 
---------------------------------------------------
 
 6. Types of Methods
 
@@ -92,7 +87,6 @@ class Demo:
     def static_method():
         pass
 
---------------------------------------------------
 
 7. Pillars of OOP
 
@@ -104,7 +98,6 @@ class Student:
     def __init__(self, name):
         self.__name = name   # private variable
 
---------------------------------------------------
 
 B. Abstraction
 Hiding implementation details.
@@ -117,7 +110,6 @@ class Shape(ABC):
     def area(self):
         pass
 
---------------------------------------------------
 
 C. Inheritance
 Acquiring properties from another class.
@@ -137,7 +129,6 @@ class Parent:
 class Child(Parent):
     pass
 
---------------------------------------------------
 
 D. Polymorphism
 Same method name, different behavior.
@@ -155,7 +146,6 @@ class Child(Parent):
     def show(self):
         print("Child")
 
---------------------------------------------------
 
 8. Access Modifiers
 
@@ -163,7 +153,6 @@ class Child(Parent):
 2. Protected → _variable
 3. Private → __variable
 
---------------------------------------------------
 
 9. Magic Methods (Dunder Methods)
 
@@ -174,7 +163,6 @@ __init__ → constructor
 __str__ → string representation
 __len__ → length
 
---------------------------------------------------
 
 10. Composition
 
@@ -188,7 +176,6 @@ class Car:
     def __init__(self):
         self.engine = Engine()
 
---------------------------------------------------
 
 11. Difference: OOP vs Procedural
 
@@ -202,7 +189,6 @@ Procedural:
 - Less secure
 - Less reusable
 
---------------------------------------------------
 
 12. Advantages of OOP
 
@@ -211,13 +197,9 @@ Procedural:
 - Security
 - Easy debugging
 
---------------------------------------------------
 
 13. Disadvantages of OOP
 
 - Complex for beginners
 - More memory usage
 
---------------------------------------------------
-
-END OF NOTES
