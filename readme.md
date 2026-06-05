@@ -214,7 +214,13 @@ graph LR
     D --> E[🎓 0006<br/>Conditionals]
     E --> F[📖 0007<br/>Loops]
     F --> G[💡 0008<br/>Functions & Recursion]
-    G --> H[🎉 Foundation Complete!]
+    G --> H[🚀 0008<br/>Project-1]
+    I --> J[🗂️ 0009<br/>File Input-Output]
+    J --> K[📦 0010<br/>Object-Oriented-Programming]
+    K --> L[📝 0011<br/>Inheritance & more about OOPs]
+    L --> M[💡 0011<br/>Project 2]
+    M --> N[📊 0012<br/>Advansed Python]
+    N --> O[🎉 Foundation Complete!]
 ```
 
 ---
