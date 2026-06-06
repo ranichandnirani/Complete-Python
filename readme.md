@@ -506,7 +506,7 @@ Need help or have questions?
 
 <div align="center">
 
-### 🎉 Foundation Complete - 6 Modules Done! 🎉
+### 🎉 Foundation Complete - 12 Modules Done! 🎉
 
 **Made with ❤️ and ☕ by Chandni Rani**
 
